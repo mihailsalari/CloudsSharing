@@ -1,11 +1,9 @@
 # CloudsSharing
 Clouds Sharing
 
-https://developer.apple.com/library/content/samplecode/FunHouse/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009216
-http://stackoverflow.com/questions/13928412/how-to-add-brightness-uislider-on-uiimagepickercontroller-camera
-## Demo
+## Demo will be added after.
 
-[![Demo Doccou alpha](https://github.com/mihailsalari/CloudsSharing/blob/master/Screens/Screen1.png)](https://www.youtube.com/)
+[![Demo Doccou alpha](https://github.com/mihailsalari/CloudsSharing/blob/master/CloudsSharing/Screens/Screen1.png)](https://www.youtube.com/)
 
 ## Support
 
