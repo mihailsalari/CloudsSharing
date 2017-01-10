@@ -118,25 +118,6 @@ extension ShareViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
-    
-    fileprivate func shareByType(_ type: SharingType) {
-        switch type {
-        case .dropbox:
-            print("Drop")
-        case .googleDrive:
-            print("Google")
-        case .evernote:
-            print("evernote")
-        case .iCloud:
-            print("iCloud")
-        case .yandexDisk:
-            print("yandexDisk")
-        case .box:
-            print("box")
-        default:
-            break
-        }
-    }
 }
 
 
@@ -155,6 +136,35 @@ extension ShareViewController {
     }
 }
 
+
+extension ShareViewController: iCloudeable {
+    
+    fileprivate func shareByType(_ type: SharingType) {
+        switch type {
+        case .dropbox:
+            print("Drop")
+        case .googleDrive:
+            print("Google")
+        case .evernote:
+            print("evernote")
+        case .iCloud:
+            print("iCloud")
+
+            if let path = Bundle.main.path(forResource: "265174", ofType: "png") {
+                if let imageURL = URL(string: "file://\(path)") {
+                    self.saveFileToiCloud(imageURL)
+                }
+            }
+            
+        case .yandexDisk:
+            print("yandexDisk")
+        case .box:
+            print("box")
+        default:
+            break
+        }
+    }
+}
 
 
 

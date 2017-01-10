@@ -34,7 +34,7 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOS 10" translatesAutoresizingMaskIntoConstraints="NO" id="JjX-Uf-k4g">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="265174.png" translatesAutoresizingMaskIntoConstraints="NO" id="JjX-Uf-k4g">
                                 <rect key="frame" x="0.0" y="64" width="375" height="559"/>
                             </imageView>
                         </subviews>
@@ -75,6 +75,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iOS 10" width="1353" height="1353"/>
+        <image name="265174.png" width="2706" height="2706"/>
     </resources>
 </document>
