@@ -18,7 +18,7 @@ Clouds Sharing
 
 * DropBox
 * GoogleDrive
-* iCloud
+* iCloud(need to add your working bundle ID in info.plist and project settings)
 * Evernote
 * Yandex Disk
 * Box
